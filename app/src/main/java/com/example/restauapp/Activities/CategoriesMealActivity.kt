@@ -22,7 +22,7 @@ class CategoriesMealActivity:AppCompatActivity() {
     lateinit var categoryMealsAdapter: CategoryMealsAdapter
    override fun onCreate(savedInstanceState:Bundle?) {
         super.onCreate(savedInstanceState)
-       binding = ActivityCategoriesMealBinding.inflate(layoutInflater)
+        binding = ActivityCategoriesMealBinding.inflate(layoutInflater)
 //        setContentView(R.layout.activity_categories_meal)
        prepareRecyclerViewAdapter()
        setContentView(binding.root)

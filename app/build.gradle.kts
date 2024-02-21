@@ -82,6 +82,8 @@ dependencies {
 //    ksp("androidx.room:room-compiler:2.5.0")
     // optional- Kotlin Extensions and Coroutines support for Room
     implementation("androidx.room:room-ktx: $room_version")
+// Add this to your dependencies in the build.gradle file
+    testImplementation ("org.mockito:mockito-core:3.11.2")
 
 
     //gif

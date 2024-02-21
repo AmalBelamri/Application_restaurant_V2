@@ -1,5 +1,9 @@
 package com.example.restauapp
 
+import com.example.restauapp.Models.Category
+import com.example.restauapp.Models.CategoryList
+import com.example.restauapp.Models.MealsByCategory
+import com.example.restauapp.Models.MealsByCategoryList
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -14,4 +18,7 @@ class ExampleUnitTest {
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
     }
+
+
+
 }
